@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>436</width>
+    <height>307</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Encripter</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../icon.png</normaloff>../icon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #929294;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">color:#fff;</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>20</y>
+      <width>171</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Mongolian Baiti</family>
+      <pointsize>17</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+color: #fff;
+font: 17pt &quot;Mongolian Baiti&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>Encrypter v. 2.4.8</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Key">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="accessibleDescription">
+     <string/>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #ceced9;
+	font: 8pt &quot;Poor Richard&quot;;
+	border: 1px solid gray;
+	color: #fff;
+}
+QPushButton:hover {
+	background-color: #acadb0;
+}
+QPushButton:pressed {
+	color: #d4d4d6;
+} 
+</string>
+    </property>
+    <property name="text">
+     <string>Создать ключ</string>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Encrypt">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>190</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #ceced9;
+	font: 8pt &quot;Poor Richard&quot;;
+	border: 1px solid gray;
+	color: #fff;
+}
+QPushButton:hover {
+	background-color: #acadb0;
+}
+QPushButton:pressed {
+	color: #d4d4d6;
+} 
+</string>
+    </property>
+    <property name="text">
+     <string>Зашифровать файл</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>240</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: #ceced9;
+	font: 8pt &quot;Poor Richard&quot;;
+	border: 1px solid gray;
+	color: #fff;
+}
+QPushButton:hover {
+	background-color: #acadb0;
+}
+QPushButton:pressed {
+	color: #d4d4d6;
+} 
+</string>
+    </property>
+    <property name="text">
+     <string>Расшифровать файл</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>260</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+color: #fff;
+font: 10pt &quot;Mongolian Baiti&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>Prod. by Ramazan Muslimov</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

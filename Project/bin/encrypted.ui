@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EncryptedFile</class>
+ <widget class="QDialog" name="EncryptedFile">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>315</width>
+    <height>122</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Encrypted</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../icon.png</normaloff>../icon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #929294;</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>10</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+color: #fff;
+font: 17pt &quot;Mongolian Baiti&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Файл зашифрован</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Enc_File">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>70</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	background-color: #ceced9;
+	font: 8pt &quot;Poor Richard&quot;;
+	border: 1px solid gray;
+	color: #fff;
+}
+QPushButton:hover {
+	background-color: #acadb0;
+}
+QPushButton:pressed {
+	color: #d4d4d6;
+} 
+</string>
+   </property>
+   <property name="text">
+    <string>ОК</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
